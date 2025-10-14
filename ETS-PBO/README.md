@@ -53,7 +53,7 @@ public class SnackMachine {
                     System.out.print("Enter admin password: ");
                     String password = scanner.next();
                     if (password.equals("admin123")) {
-                        System.out.printf("Total Sales: $%.2f%n", transaction.getTotalSales());
+                        System.out.printf("Total Sales: Rp.%.2f%n", transaction.getTotalSales());
                         snackMachine.displayStockStatus();
                         transaction.displayTransactionHistory();
                         System.out.println("***********************");
@@ -109,7 +109,7 @@ public class Machine
             return;
         }
 
-        System.out.println("Please pay $" + selectedSnack.getPrice());
+        System.out.println("Please pay Rp." + selectedSnack.getPrice());
         System.out.print("Enter payment amount: ");
         double paymentAmount = scanner.nextDouble();
         if (paymentAmount < selectedSnack.getPrice()) {
@@ -121,7 +121,7 @@ public class Machine
         LogTransaction(selectedSnack.getPrice(), selectedSnack, transaction);
         System.out.println("Thank you for your purchase!");
         if (paymentAmount > selectedSnack.getPrice()) {
-            System.out.printf("Your change is $%.2f%n", paymentAmount - selectedSnack.getPrice());
+            System.out.printf("Your change is Rp.%.2f%n", paymentAmount - selectedSnack.getPrice());
         }
     }
 
@@ -205,7 +205,7 @@ public class transactions
         String timestamp = LocalDateTime.now().format(dtf);
         
         // Membuat string log yang detail
-        String logEntry = String.format("[%s] Sold: %s | Price: $%.2f | Paid: $%.2f | Change: $%.2f",
+        String logEntry = String.format("[%s] Sold: %s | Price: Rp.%.2f | Paid: Rp.%.2f | Change: $%.2f",
                              timestamp, snack.getName(), amount, amountPaid, change);
         
         transactionLog.add(logEntry);
