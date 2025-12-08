@@ -1,5 +1,9 @@
 # **Game Pong**
 
+<img width="1057" height="783" alt="image" src="https://github.com/user-attachments/assets/05587719-90fb-4649-b3fb-d8abf35e157e" />
+<img width="1397" height="1451" alt="image" src="https://github.com/user-attachments/assets/5fecd93b-8ca9-40bc-850c-b8845828e3b9" />
+
+
 Pada latihan ini, dibuat sebuah permainan **Pong** sederhana menggunakan bahasa pemrograman **Java** dan pustaka GUI **Swing**. Pong adalah game klasik dua dimensi yang meniru permainan tenis meja.
 
 Game terdiri dari empat komponen utama:
