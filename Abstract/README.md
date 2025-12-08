@@ -1,5 +1,8 @@
 # **Abstract Class**
 
+<img width="1102" height="1124" alt="image" src="https://github.com/user-attachments/assets/e2ca95bc-c7e5-4180-85d3-a34cf6f22c96" />
+<img width="986" height="875" alt="image" src="https://github.com/user-attachments/assets/d08877aa-6777-4d94-a1be-46d1f6d758cf" />
+
 Pada proyek ini, saya mengimplementasikan konsep **kelas abstrak (abstraction)** dalam pemrograman berorientasi objek menggunakan Java. Kelas abstrak digunakan sebagai cetak biru bagi kelas-kelas turunan sehingga logika umum dapat ditempatkan di satu tempat, sementara perilaku spesifik diimplementasikan oleh subclass.
 
 Saya membuat kelas **LivingCreature** sebagai kelas abstrak yang memiliki metode abstrak seperti `eat()`, `move()`, dan metode konkret seperti `sleep()` dan `grow()`. Kemudian dibuat dua kelas abstrak turunan: **Herbivore** dan **Carnivore**, yang mewakili dua kelompok hewan berdasarkan jenis makanannya.
