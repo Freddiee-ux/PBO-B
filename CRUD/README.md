@@ -1,5 +1,6 @@
 # Laporan Implementasi CRUD Java menggunakan JDBC (BlueJ)
 
+
 ## 1. Tujuan
 
 Program ini dibuat untuk melakukan operasi **CRUD (Create, Read, Update, Delete)** pada tabel **`buku`** di database **`perpustakaan`** menggunakan **Java JDBC** dan dijalankan melalui **BlueJ**.
